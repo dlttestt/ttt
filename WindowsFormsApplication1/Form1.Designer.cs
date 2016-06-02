@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.domainUpDown1 = new System.Windows.Forms.DomainUpDown();
-            this.colorDialog1 = new System.Windows.Forms.ColorDialog();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.SuspendLayout();
             // 
             // domainUpDown1
@@ -40,11 +40,19 @@
             this.domainUpDown1.TabIndex = 0;
             this.domainUpDown1.Text = "domainUpDown1";
             // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(122, 144);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(200, 21);
+            this.dateTimePicker1.TabIndex = 1;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(432, 393);
+            this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.domainUpDown1);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -55,7 +63,7 @@
         #endregion
 
         private System.Windows.Forms.DomainUpDown domainUpDown1;
-        private System.Windows.Forms.ColorDialog colorDialog1;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
     }
 }
 
