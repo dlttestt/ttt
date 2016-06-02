@@ -28,18 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.domainUpDown1 = new System.Windows.Forms.DomainUpDown();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            // 
-            // domainUpDown1
-            // 
-            this.domainUpDown1.Location = new System.Drawing.Point(95, 82);
-            this.domainUpDown1.Name = "domainUpDown1";
-            this.domainUpDown1.Size = new System.Drawing.Size(120, 21);
-            this.domainUpDown1.TabIndex = 0;
-            this.domainUpDown1.Text = "domainUpDown1";
             // 
             // dateTimePicker1
             // 
@@ -65,7 +56,6 @@
             this.ClientSize = new System.Drawing.Size(432, 393);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.domainUpDown1);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -73,8 +63,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.DomainUpDown domainUpDown1;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Button button1;
     }
