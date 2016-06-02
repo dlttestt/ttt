@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.domainUpDown1 = new System.Windows.Forms.DomainUpDown();
-            this.colorDialog1 = new System.Windows.Forms.ColorDialog();
             this.SuspendLayout();
             // 
             // domainUpDown1
@@ -55,7 +54,6 @@
         #endregion
 
         private System.Windows.Forms.DomainUpDown domainUpDown1;
-        private System.Windows.Forms.ColorDialog colorDialog1;
     }
 }
 
